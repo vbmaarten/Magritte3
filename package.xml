@@ -1,0 +1,20 @@
+<package>
+  <name>Magritte3</name>
+  <namespace>Magritte3</namespace>
+  <test>
+	<namespace>Magritte3</namespace>
+	<prereq>Magritte3</prereq>
+	<prereq>SUnit</prereq>
+	<sunit>Magritte3.MAAdaptiveModelTest 
+		Magritte3.MAConditionTest
+		Magritte3.MADerivedDescriptions
+		Magritte3.MADescriptionBuilderTest
+		Magritte3.MAExtensionTest 	
+		Magritte3.MAFileModelTest 
+		Magritte3.MAObjectTest 
+		Magritte3.MATableModelTest
+	</sunit>
+	<filein>modeltests.st</filein>
+  </test>
+  <filein>model.st</filein>
+</package>
